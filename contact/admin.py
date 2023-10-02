@@ -7,7 +7,7 @@ class ContactAdmin(admin.ModelAdmin):
     ordering = '-id', #Com o '-' ele coloca em ordem decrescente
     # list_filter = 'created_date',
     search_fields = 'id', 'first_name' , 'last_name',
-    list_per_page = 10
+    list_per_page = 20
     list_max_show_all = 50
     list_display_links = 'id', 'first_name',
 
